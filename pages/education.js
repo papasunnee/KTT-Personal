@@ -2,6 +2,7 @@ import {Component} from 'react'
 import Head from 'next/head'
 
 import withLayout from '../components/withLayout'
+import Menu from '../components/Header/Menu'
 import Achievement from '../components/Achievement/Achievement'
 import Education from '../components/Education/Education'
 import Footer from '../components/Footer/Footer'

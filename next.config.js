@@ -4,7 +4,8 @@ module.exports = {
       '/': { page: '/' },
       '/education': { page: '/education' },
       '/politics': { page: '/politics' },
-      '/profession': { page: '/profession' }
+      '/profession': { page: '/profession' },
+      '/honours': { page: '/honours' }
     }
   },
   assetPrefix: '.'
