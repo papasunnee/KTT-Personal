@@ -8,7 +8,8 @@ const Education = () => {
                     <div className="content-left">
                         <h3 className="cvitae-section-title">Educaton</h3>
                         <img src="/static/img/education/library.jpg" style={{ width : '100%'}} />
-                        <p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p><p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                     </div>
                     <div className="content-right">
                         <ul className="collapsible" data-collapsible="accordion">

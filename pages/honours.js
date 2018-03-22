@@ -25,7 +25,7 @@ class HonoursPage extends Component{
                     <li className="waves-effect waves-cvitae"><a href="/profession">Profession</a></li>
                     <li className="cvitae-home waves-effect"><a href="/">KTT <small>(SAN)</small></a></li>
                     <li className="waves-effect waves-cvitae"><a href="/politics">Politics</a></li>
-                    <li className="waves-effect waves-cvitae"><a href="/">Honours</a></li>
+                    <li className="waves-effect waves-cvitae"><a href="/honours">Honours</a></li>
                     
                     <li className="waves-effect waves-cvitae scroll"><a href="#contact">Contact</a></li>
                 </ul>

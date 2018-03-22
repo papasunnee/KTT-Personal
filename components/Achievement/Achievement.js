@@ -7,7 +7,7 @@ const Achievement = () => {
                 <div className="cvitae-section-content">
                     <div className="content-left">
                         <h3 className="cvitae-section-title">My Core Belief</h3>
-                        <p>Visited different countries &amp; met lot of people throughout companies. Earned love, respect &amp; trust. Therefore I got some achievements to share.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                     </div>
                     <div className="content-right">
                         <div className="achievement-container">
