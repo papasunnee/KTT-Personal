@@ -1,8 +1,20 @@
 import React , {Component} from 'react'
 
-const TopBanner = () => {
+export default class TopBanner extends Component {
+  constructor(props){
+    super(props)
+    this.state = {isActive: false}
+  }
+
+  componentDidMount(){
+    setTimeout(()=>{
+      this.setState({isActive: true})
+    }, 1000)
+  }
+
+  render(){
     return(
-        <div id="home" className="cvitae-section slider sliderStyle8">
+        <div id="home" className={"cvitae-section slider sliderStyle8 " + (this.state.isActive? "active" : "")}>
             <div className="slider-overlay cvitae-typed-slider">
                 <div className="cvitae-container">
                     <div className="slider-content">
@@ -12,6 +24,7 @@ const TopBanner = () => {
                 </div>
             </div>
         </div>
-    )
+      )
+  }
 }
-export default TopBanner
+//export default TopBanner

@@ -19,24 +19,20 @@ class HomePage extends Component{
 
         <TopBanner />
 
-        <Menu />
+        <Menu isBottom/>
 
         {/* <Navigation /> */}
 
         <About />
 
         <Education />
-        
+
         <Achievement />
-        
-        
 
         <Footer />
       </div>
-
-        
     )
   }
 }
-  
+
 export default withLayout(HomePage)

@@ -3,22 +3,22 @@ import React ,{Component} from 'react'
 const Skills = () => {
     return (
         <div id="skills" className="cvitae-section cvitae-skills">
-          <div class="cvitae-container">
-            <div class="cvitae-section-content">
-              <div class="content-left">
-                <h3 class="cvitae-section-title">Skills</h3>
-                <ul class="hi-lights">
+          <div className="cvitae-container">
+            <div className="cvitae-section-content">
+              <div className="content-left">
+                <h3 className="cvitae-section-title">Skills</h3>
+                <ul className="hi-lights">
                   <li>Application Development</li>
                   <li>Service-Oriented Architecture</li>
                   <li>Enterprise Implementations </li>
                   <li>Software Development Lifecycle</li>
                 </ul>
               </div>
-              <div class="content-right">
-                <div class="progress-bar-container">
-                  <div class="progress">
-                    <h3 class="progress-title">WordPress</h3>
-                    <div class="progress-bar" data-progress="85">
+              <div className="content-right">
+                <div className="progress-bar-container">
+                  <div className="progress">
+                    <h3 className="progress-title">WordPress</h3>
+                    <div className="progress-bar" data-progress="85">
                         <span className="bar"></span>
                         <span className="text">85</span>
                     </div>
