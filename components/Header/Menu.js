@@ -11,7 +11,7 @@ const Menu = () => {
                     <li className="waves-effect waves-cvitae"><a href="/profession">Profession</a></li>
                     <li className="cvitae-home waves-effect scroll"><a href="#home">KTT <small>(SAN)</small></a></li>
                     <li className="waves-effect waves-cvitae"><a href="/politics">Politics</a></li>
-                    <li className="waves-effect waves-cvitae scroll"><a href="/honours">Honours</a></li>
+                    <li className="waves-effect waves-cvitae"><a href="/honours">Honours</a></li>
                     
                     <li className="waves-effect waves-cvitae scroll"><a href="#contact">Contact</a></li>
                 </ul>

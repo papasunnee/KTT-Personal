@@ -6,13 +6,13 @@ import TopBanner from '../components/Header/TopBanner'
 import Menu from '../components/Header/Menu'
 import Navigation from '../components/Header/Navigation'
 import About from '../components/About/About'
-import Politics from '../components/Politics/Politics'
+import Honours from '../components/Honours/Honours'
 import Achievement from '../components/Achievement/Achievement'
 import Footer from '../components/Footer/Footer'
 
 
 
-class PoliticsPage extends Component{
+class HonoursPage extends Component{
   render(){
     return(
       <div className="cvitae-site-container" >
@@ -24,8 +24,8 @@ class PoliticsPage extends Component{
                     <li className="waves-effect waves-cvitae"><a href="/education">Education</a></li>
                     <li className="waves-effect waves-cvitae"><a href="/profession">Profession</a></li>
                     <li className="cvitae-home waves-effect"><a href="/">KTT <small>(SAN)</small></a></li>
-                    <li className="waves-effect waves-cvitae scroll"><a href="#">Politics</a></li>
-                    <li className="waves-effect waves-cvitae"><a href="/honours">Honours</a></li>
+                    <li className="waves-effect waves-cvitae"><a href="/politics">Politics</a></li>
+                    <li className="waves-effect waves-cvitae"><a href="/">Honours</a></li>
                     
                     <li className="waves-effect waves-cvitae scroll"><a href="#contact">Contact</a></li>
                 </ul>
@@ -34,11 +34,11 @@ class PoliticsPage extends Component{
 
         <div id="portfolio" className="cvitae-section cvitae-portfolio">
             <div className="container-fluid">
-                <img src="/static/img/politics/politics.jpg" width="100%" />
+                <img src="/static/img/honours/honours.png" width="100%" />
             </div>
         </div>
 
-        <Politics />
+        <Honours />
         
         <Achievement />
         
@@ -52,4 +52,4 @@ class PoliticsPage extends Component{
   }
 }
   
-export default withLayout(PoliticsPage)
+export default withLayout(HonoursPage)

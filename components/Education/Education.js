@@ -7,6 +7,7 @@ const Education = () => {
                 <div className="cvitae-section-content">
                     <div className="content-left">
                         <h3 className="cvitae-section-title">Educaton</h3>
+                        <img src="/static/img/education/library.jpg" style={{ width : '100%'}} />
                         <p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p><p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
                     </div>
                     <div className="content-right">

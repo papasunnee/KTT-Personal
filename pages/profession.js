@@ -22,10 +22,10 @@ class Portfolio extends Component{
                 <ul>
                     <li className="waves-effect waves-cvitae"><a href="/#about">About</a></li>
                     <li className="waves-effect waves-cvitae"><a href="/education">Education</a></li>
-                    <li className="waves-effect waves-cvitae scroll"><a href="#">Portfolio</a></li>
+                    <li className="waves-effect waves-cvitae scroll"><a href="#">Profession</a></li>
                     <li className="cvitae-home waves-effect"><a href="/">KTT <small>(SAN)</small></a></li>
                     <li className="waves-effect waves-cvitae"><a href="/politics">Politics</a></li>
-                    <li className="waves-effect waves-cvitae"><a href="/">Honours</a></li>
+                    <li className="waves-effect waves-cvitae"><a href="/honours">Honours</a></li>
                     
                     <li className="waves-effect waves-cvitae scroll"><a href="#contact">Contact</a></li>
                 </ul>

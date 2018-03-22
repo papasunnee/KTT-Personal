@@ -1,12 +1,12 @@
 import React, {Component} from 'react'
 
-const Politics = () => {
+const Honours = () => {
     return (
         <div id="education" className="cvitae-section cvitae-education">
             <div className="cvitae-container">
                 <div className="cvitae-section-content">
                     <div className="content-left">
-                        <h3 className="cvitae-section-title">Politics</h3>
+                        <h3 className="cvitae-section-title">Honours</h3>
                         <p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p><p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
                     </div>
                     <div className="content-right">
@@ -31,4 +31,4 @@ const Politics = () => {
     )
 }
 
-export default Politics
+export default Honours

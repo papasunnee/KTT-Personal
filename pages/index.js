@@ -6,7 +6,6 @@ import TopBanner from '../components/Header/TopBanner'
 import Menu from '../components/Header/Menu'
 import Navigation from '../components/Header/Navigation'
 import About from '../components/About/About'
-import Education from '../components/Education/Education'
 import Achievement from '../components/Achievement/Achievement'
 import Footer from '../components/Footer/Footer'
 
@@ -21,11 +20,7 @@ class HomePage extends Component{
 
         <Menu />
 
-        {/* <Navigation /> */}
-
         <About />
-
-        <Education />
         
         <Achievement />
         

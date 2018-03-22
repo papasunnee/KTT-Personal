@@ -1,6 +1,6 @@
 import React , {Component} from 'react'
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         
               <div id="contact" className="cvitae-section cvitae-contact footer">
@@ -10,24 +10,24 @@ const Footer = () => {
                           <div className="content-right"><form method="post">
                               <div className="row">
                                   <div className="col s6">
-                                      <div className="form-input"><input type="text" placeholder="your name*"/><span className="underline"></span></div>
+                                      <div className="form-input"><input type="text" value="Your name*"/><span className="underline"></span></div>
                                   </div>
                                   <div className="col s6">
-                                      <div className="form-input"><input type="text" placeholder="email*"/><span className="underline"></span></div>
+                                      <div className="form-input"><input type="text" value="Email*"/><span className="underline"></span></div>
                                   </div>
                               </div>
                               <div className="row">
                                   <div className="col s6">
-                                      <div className="form-input"><input type="text" placeholder="phone*"/><span className="underline"></span></div>
+                                      <div className="form-input"><input type="text" value="Phone number*"/><span className="underline"></span></div>
                                   </div>
                                   <div className="col s6">
-                                      <div className="form-input"><input type="text" placeholder="website"/><span className="underline"></span></div>
+                                      <div className="form-input"><input type="text" value="Website"/><span className="underline"></span></div>
                                   </div>
                               </div>
                               <div className="row">
                                   <div className="col s12">
-                                      <div className="form-textarea"><textarea placeholder="your message"></textarea><span className="underline"></span></div>
-                                      <div className="form-submit"><button type="submit" className="waves-effect waves-cvitae">Submit</button><span className="underline"></span></div>
+                                      <div className="form-textarea"><textarea >{props.textareaValue || 'Your message*'}</textarea><span className="underline"></span></div>
+                                      <div className="form-submit"><button type="submit" className="waves-effect waves-cvitae" style={{backgroundColor : 'red'}}>Submit</button><span className="underline"></span></div>
                                   </div>
                               </div>
                           </form>

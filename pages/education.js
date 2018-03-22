@@ -2,11 +2,6 @@ import {Component} from 'react'
 import Head from 'next/head'
 
 import withLayout from '../components/withLayout'
-import TopBanner from '../components/Header/TopBanner'
-import Menu from '../components/Header/Menu'
-import Navigation from '../components/Header/Navigation'
-import About from '../components/About/About'
-import Port from '../components/Portfolio/Portfolio'
 import Achievement from '../components/Achievement/Achievement'
 import Education from '../components/Education/Education'
 import Footer from '../components/Footer/Footer'
@@ -26,7 +21,7 @@ class EducationPage extends Component{
                     <li className="waves-effect waves-cvitae"><a href="/profession">Profession</a></li>
                     <li className="cvitae-home waves-effect"><a href="/">KTT <small>(SAN)</small></a></li>
                     <li className="waves-effect waves-cvitae"><a href="/politics">Politics</a></li>
-                    <li className="waves-effect waves-cvitae"><a href="/">Honours</a></li>
+                    <li className="waves-effect waves-cvitae"><a href="/honour">Honours</a></li>
                     
                     <li className="waves-effect waves-cvitae scroll"><a href="#contact">Contact</a></li>
                 </ul>
