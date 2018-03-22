@@ -6,22 +6,27 @@ const Politics = () => {
             <div className="cvitae-container">
                 <div className="cvitae-section-content">
                     <div className="content-left">
-                        <h3 className="cvitae-section-title">Portfolio</h3>
-                        <p>To enrich knowledge, I am lucky to get certified from several famous institutions in our locality. Here I enlisted my top certifications.</p><p>Beside there, I had been awarded as Top Scorer in Math &amp; Physics during my grad school.</p>
+                        <h3 className="cvitae-section-title">Politics</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,    
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        </p>
                     </div>
                     <div className="content-right">
                         <ul className="collapsible" data-collapsible="accordion">
                             <li>
-                                <div className="collapsible-header">Portfolio Name, <span className="year">2005</span></div>
-                                <div className="collapsible-body"><p>Portfolio Details Here</p></div>
+                                <div className="collapsible-header">Office Held, <span className="year">2005</span></div>
+                                <div className="collapsible-body"><p>Political Details Here</p></div>
                             </li>
                             <li>
-                                <div className="collapsible-header">Portfolio Name, <span className="year">2003</span></div>
-                                <div className="collapsible-body"><p>Portfolio Details Here</p></div>
+                                <div className="collapsible-header">Office Held, <span className="year">2003</span></div>
+                                <div className="collapsible-body"><p>Political Details Here</p></div>
                             </li>
                             <li>
-                                <div className="collapsible-header">Portfolio Name, <span className="year">2001</span></div>
-                                <div className="collapsible-body"><p>Portfolio Details Here</p></div>
+                                <div className="collapsible-header">Office Held, <span className="year">2001</span></div>
+                                <div className="collapsible-body"><p>Political Details Here</p></div>
                             </li>
                         </ul>
                     </div>
