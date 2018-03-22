@@ -6,7 +6,7 @@ const Footer = () => {
               <div id="contact" className="cvitae-section cvitae-contact footer">
                   <div className="cvitae-container">
                       <div className="cvitae-section-content">
-                          <div className="content-left"><h3 className="cvitae-section-title">Contact Me</h3><p>Please feel fee to leave a message to me. I would love to hear from you anytime. Also you can call me or push me a message to my social networks. <br/>Thank you <br/>Regards -</p><img src="img/sign.png" alt="Signature"/></div>
+                          <div className="content-left"><h3 className="cvitae-section-title">Contact Me</h3><p>I am acessible at all time via this platform. Please leave a message or inquiry.<br/>Thank you <br/>Regards </p> <strong>KABIRU TANIMU TURAKI (SAN)</strong></div>
                           <div className="content-right"><form method="post">
                               <div className="row">
                                   <div className="col s6">
@@ -34,8 +34,9 @@ const Footer = () => {
                       </div>
                   </div>
               </div>
-              <div className="footer-content">
+              <div className="footer-content" style={{paddingBottom : '1px', backgroundColor : '#000000'}}>
                   <div className="cvitae-container">
+                  <h2 style={{color : 'white', textAlign : 'center', padding : '60px 0px', fontSize : '80px'}}>Caption Text Here</h2>
                     <ul className="links">
                         <li className="tooltipped" data-position="top" data-delay="50" data-tooltip="Email this Resume">
                             <a href="#"><span className="ti-email"></span>Email this Resume</a>
@@ -50,7 +51,8 @@ const Footer = () => {
                             <a href="#"><span className="ti-facebook"></span>Facebook Profile</a>
                         </li>
                     </ul>
-                    <p className="copyright">Powered by <a href="" target="_blank" style={{color : 'red'}}>Altitude Technologies</a></p>
+                    <hr/>
+                    <p className="copyright">Powered by <a href="" target="_blank" style={{color : 'red'}}>Altitude Technology</a></p>
                    </div>
               </div>
           </div>

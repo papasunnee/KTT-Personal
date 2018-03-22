@@ -20,13 +20,13 @@ const About = () => {
                         He is presently a member of People’s Democratic Party’s Board of Trustees (BOT).
                         </p>
                     </div>
-                    <div class="links">
+                    {/* <div class="links">
                         <a download="dummy-resume.txt" onClick="Materialize.toast('Resume Download Successfully', 4000, 'rounded')" href="dummy-resume.txt" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Download this Resume"><span class="ti-download"></span>Download Resume</a>
                         <a href="#"  class="tooltipped" data-position="left" data-delay="50" data-tooltip="Email this Resume"><span class="ti-email"></span>Email this Resume</a>
                         <a href="#" id="linkedIn" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Follow on LinkedIn"><span class="ti-linkedin"></span>LinkedIn Profile</a>
                         <a href="#" id="twitter" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Follow on Twitter"><span class="ti-twitter"></span>Twitter Profile</a>
                         <a href="#" id="facebook" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Follow on Facebook"><span className="ti-facebook"></span>Facebook Profile</a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
