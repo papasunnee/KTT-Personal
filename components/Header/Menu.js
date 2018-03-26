@@ -6,7 +6,7 @@ export default (props) => {
         <div className={"cvitae-menu-wrapper " + (props.isBottom ? "bottom" : "")}>
             <nav className="cvitae-main-nav ">
                 <ul>
-                    <li className="waves-effect waves-cvitae scroll"><a href="#about">About</a></li>
+                    <li className="waves-effect waves-cvitae scroll"><a href="./index.html#about">About</a></li>
                     <li className="waves-effect waves-cvitae"><a href="./education.html">Education</a></li>
                     <li className="waves-effect waves-cvitae"><a href="./profession.html">Profession</a></li>
                     <li className="cvitae-home waves-effect scroll"><a href="./index.html">KTT <small>(SAN)</small></a></li>
