@@ -6,7 +6,7 @@ const Footer = (props) => {
               <div id="contact" className="cvitae-section cvitae-contact footer">
                   <div className="cvitae-container">
                       <div className="cvitae-section-content">
-                          <div className="content-left"><h3 className="cvitae-section-title">Contact Me</h3><p>I am acessible at all time via this platform. Please leave a message or inquiry.<br/>Thank you </p> <strong>KABIRU TANIMU TURAKI (SAN)</strong></div>
+                          <div className="content-left"><h3 className="cvitae-section-title">Contact Me</h3><p>I am acessible at all times via this platform. Please leave a message or inquiry.<br/>Thank you </p> <strong>KABIRU TANIMU TURAKI (SAN)</strong></div>
                           <div className="content-right"><form method="post">
                               <div className="row">
                                   <div className="col s6">
@@ -54,7 +54,7 @@ const Footer = (props) => {
                         </li>
                     </ul>
                     <hr/>
-                    <p className="copyright">Powered by <a href="" target="_blank" style={{color : 'red'}}> Altitude Technology</a></p>
+                    <p className="copyright">Powered by <a href="http://altitude-tech.com" target="_blank" style={{color : 'red'}}> Altitude Technology</a></p>
                    </div>
               </div>
           </div>

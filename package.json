@@ -2,7 +2,6 @@
   "name": "kttpersonal",
   "version": "1.0.0",
   "description": "KTT Personal Website",
-  "main": "index.js",
   "author": "altitudetechnologynig@gmail.com",
   "license": "MIT",
   "scripts": {
