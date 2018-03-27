@@ -11,6 +11,7 @@ const Scripts = (props) => {
         <script type="text/javascript" src="./static/js/jquery.catslider.js"></script>
         <script type="text/javascript" src="./static/js/owl.carousel.min.js"></script>
         <script type="text/javascript" src="./static/js/main.js"></script>
+        <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
       </div>
     )
   }

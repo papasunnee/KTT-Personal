@@ -12,11 +12,11 @@ import Footer from '../components/Footer/Footer'
 class Portfolio extends Component{
   render(){
     return(
-      <div className="cvitae-site-container" >
+      <div className="turaki-site-container" >
 
         <Menu />
 
-        <div id="portfolio" className="cvitae-section cvitae-portfolio">
+        <div id="portfolio" className="turaki-section turaki-portfolio">
             <div className="container-fluid">
                 <img src="./static/img/portfolio/012.jpg" style={{marginTop: "-150px"}} width="100%" />
             </div>

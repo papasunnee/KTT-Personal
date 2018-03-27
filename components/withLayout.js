@@ -35,7 +35,7 @@ export default function withLayout(Child) {
                 <link rel="stylesheet" type="text/css" href="./static/css/catSlider.css" />
                 <link rel="stylesheet" type="text/css" href="./static/css/owl.carousel.css" />
                 <link rel="stylesheet" type="text/css" href="./static/css/materialize.min.css" />
-                <link rel="stylesheet" type="text/css" href="./static/css/cvitae-grid.css" />
+                <link rel="stylesheet" type="text/css" href="./static/css/turakipersonal.css" />
                 <link rel="stylesheet" type="text/css" href="./static/css/main.css" />
                 <script type="text/javascript" src="./static/js/modernizr.js"></script>
               </Head>

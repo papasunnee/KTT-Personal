@@ -2,11 +2,11 @@ import React, {Component} from 'react'
 
 const Achievement = () => {
     return (
-        <div id="achievement" className="cvitae-section cvitae-achievement">
-            <div className="cvitae-container">
-                <div className="cvitae-section-content">
+        <div id="achievement" className="turaki-section turaki-achievement">
+            <div className="turaki-container">
+                <div className="turaki-section-content">
                     <div className="content-left">
-                        <h3 className="cvitae-section-title">My Core Belief</h3>
+                        <h3 className="turaki-section-title">My Core Belief</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
                     </div>
                     <div className="content-right">

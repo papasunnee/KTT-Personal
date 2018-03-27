@@ -2,11 +2,11 @@ import React, {Component} from 'react'
 
 const Honours = () => {
     return (
-        <div id="education" className="cvitae-section cvitae-education">
-            <div className="cvitae-container">
-                <div className="cvitae-section-content">
+        <div id="education" className="turaki-section turaki-education">
+            <div className="turaki-container">
+                <div className="turaki-section-content">
                     <div className="content-left">
-                        <h3 className="cvitae-section-title">Honours</h3>
+                        <h3 className="turaki-section-title">Honours</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,    
                         </p>

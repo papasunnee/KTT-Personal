@@ -195,7 +195,7 @@ h4 a {
 	position: relative;
 }
 
-.background .cvitae-container {
+.background .turaki-container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -265,32 +265,32 @@ h4 a {
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
 }
 
-.cvitae-demo-nav {
+.turaki-demo-nav {
 	height: 120px;
 	margin-bottom: 60px;
 }
-.cvitae-demo-nav .wrapper.fixed {
+.turaki-demo-nav .wrapper.fixed {
 	position: fixed;
 	top: 0;
 	z-index: 99;
 }
-.cvitae-demo-nav ul {
+.turaki-demo-nav ul {
 	display: table;
 	table-layout: fixed;
 	border-collapse: collapse;
 	width: 100%;
 }
 
-.cvitae-demo-nav .wrapper.fixed ul {
+.turaki-demo-nav .wrapper.fixed ul {
 	background-color: #fff;
 }
 
-.cvitae-demo-nav li {
+.turaki-demo-nav li {
 	display: table-cell;
 	border: 1px solid #f2f2f2;
 }
 
-.cvitae-demo-nav li a {
+.turaki-demo-nav li a {
 	display: block;
 	text-align: center;
 	line-height: 120px;
@@ -299,16 +299,16 @@ h4 a {
 	transition: color .3s, background-color .3s, line-height .3s, font-size .3s;
 }
 
-.cvitae-demo-nav .wrapper.fixed li a{
+.turaki-demo-nav .wrapper.fixed li a{
 	font-size: 16px;
 	line-height: 60px;
 }
 
-.cvitae-demo-nav li a.purchase {
+.turaki-demo-nav li a.purchase {
 	color: #01bff3;
 }
 
-.cvitae-demo-nav li a:hover {
+.turaki-demo-nav li a:hover {
 	color: #fff;
 	background-color: #01bff3;
 }
@@ -553,7 +553,7 @@ h4 a {
 	position: relative;
 }
 
-.background .cvitae-container {
+.background .turaki-container {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -642,32 +642,32 @@ h4 a {
 	transform: translateY(-20px);
 }
 
-.cvitae-demo-nav {
+.turaki-demo-nav {
 	height: 120px;
 	margin-bottom: 60px;
 }
-.cvitae-demo-nav .wrapper.fixed {
+.turaki-demo-nav .wrapper.fixed {
 	position: fixed;
 	top: 0;
 	z-index: 99;
 }
-.cvitae-demo-nav ul {
+.turaki-demo-nav ul {
 	display: table;
 	table-layout: fixed;
 	border-collapse: collapse;
 	width: 100%;
 }
 
-.cvitae-demo-nav .wrapper.fixed ul {
+.turaki-demo-nav .wrapper.fixed ul {
 	background-color: #fff;
 }
 
-.cvitae-demo-nav li {
+.turaki-demo-nav li {
 	display: table-cell;
 	border: 1px solid #f2f2f2;
 }
 
-.cvitae-demo-nav li a {
+.turaki-demo-nav li a {
 	display: block;
 	text-align: center;
 	line-height: 120px;
@@ -676,16 +676,16 @@ h4 a {
 	transition: color .3s, background-color .3s, line-height .3s, font-size .3s;
 }
 
-.cvitae-demo-nav .wrapper.fixed li a{
+.turaki-demo-nav .wrapper.fixed li a{
 	font-size: 16px;
 	line-height: 60px;
 }
 
-.cvitae-demo-nav li a.purchase {
+.turaki-demo-nav li a.purchase {
 	color: #01bff3;
 }
 
-.cvitae-demo-nav li a:hover {
+.turaki-demo-nav li a:hover {
 	color: #fff;
 	background-color: #01bff3;
 }
@@ -754,7 +754,7 @@ h4 a {
 
 @media (min-width: 1500px) {
 
-	.cvitae-col-md-4 {
+	.turaki-col-md-4 {
 		padding-right: 40px;
     	padding-left: 40px;
 	}

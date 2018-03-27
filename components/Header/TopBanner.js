@@ -14,9 +14,9 @@ export default class TopBanner extends Component {
 
   render(){
     return(
-        <div id="home" className={"cvitae-section slider sliderStyle8 " + (this.state.isActive? "active" : "")}>
-            <div className="slider-overlay cvitae-typed-slider">
-                <div className="cvitae-container">
+        <div id="home" className={"turaki-section slider sliderStyle8 " + (this.state.isActive? "active" : "")}>
+            <div className="slider-overlay turaki-typed-slider">
+                <div className="turaki-container">
                     <div className="slider-content">
                         <p className="name">Kabiru Tanimu Turaki</p>
                         <p className="designation">SENIOR ADVOCATE OF NIGERIA</p>

@@ -2,11 +2,11 @@ import React ,{Component} from 'react'
 
 const Skills = () => {
     return (
-        <div id="skills" className="cvitae-section cvitae-skills">
-          <div className="cvitae-container">
-            <div className="cvitae-section-content">
+        <div id="skills" className="turaki-section turaki-skills">
+          <div className="turaki-container">
+            <div className="turaki-section-content">
               <div className="content-left">
-                <h3 className="cvitae-section-title">Skills</h3>
+                <h3 className="turaki-section-title">Skills</h3>
                 <ul className="hi-lights">
                   <li>Application Development</li>
                   <li>Service-Oriented Architecture</li>

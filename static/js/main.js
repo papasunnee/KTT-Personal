@@ -22,7 +22,7 @@ jQuery(document).ready(function() {
   jQuery(window).resize(function() {
     e()
   }),
-  jQuery(".home .cvitae-main-nav .scroll a").on("click", function(e) {
+  jQuery(".home .turaki-main-nav .scroll a").on("click", function(e) {
     var t = this;
     return jQuery.smoothScroll({easing: "easeInOutCubic", offset: -100, scrollTarget: t.hash, speed: 800}),
     jQuery(this).hasClass("external")
@@ -36,7 +36,7 @@ jQuery(document).ready(function() {
       ? void 0
       : !1
   });
-  for (var t = jQuery(".home .cvitae-main-nav li.scroll ").children(), a = [], r = 0; r < t.length; r++) {
+  for (var t = jQuery(".home .turaki-main-nav li.scroll ").children(), a = [], r = 0; r < t.length; r++) {
     var i = t[r],
       o = jQuery(i).attr("href");
     a.push(o)
@@ -75,26 +75,26 @@ jQuery(document).ready(function() {
     !1
   }),
   jQuery(".mobile-site-menu").on("click", function() {
-    jQuery(".cvitae-mobile-navigation").toggleClass("active")
+    jQuery(".turaki-mobile-navigation").toggleClass("active")
   }),
-  jQuery(".cvitae-mobile-nav a").on("click", function() {
-    jQuery(".cvitae-mobile-navigation").removeClass("active")
+  jQuery(".turaki-mobile-nav a").on("click", function() {
+    jQuery(".turaki-mobile-navigation").removeClass("active")
   }),
   jQuery(window).on("load", function() {
     jQuery("#achievement").parallax("50%", .6),
     jQuery("#testimonial").parallax("50%", .6),
     jQuery("#clients").parallax("50%", .6),
-    jQuery("nav.cvitae-main-nav").waypoint({
+    jQuery("nav.turaki-main-nav").waypoint({
       element: this,
       handler: function(e) {
         "down" == e
-          ? ($(".cvitae-menu-wrapper").addClass("sticky"), $(".cvitae-main-nav").css({width: $(".cvitae-site-container").width()}))
-          : ($(".cvitae-menu-wrapper").removeClass("sticky"), $(".cvitae-main-nav").css({width: "100%"}))
+          ? ($(".turaki-menu-wrapper").addClass("sticky"), $(".turaki-main-nav").css({width: $(".turaki-site-container").width()}))
+          : ($(".turaki-menu-wrapper").removeClass("sticky"), $(".turaki-main-nav").css({width: "100%"}))
       },
       offset: "-150"
     })
   }),
-  jQuery(".cvitae-skills").waypoint({
+  jQuery(".turaki-skills").waypoint({
     handler: function(e) {
       jQuery(".progress-bar").each(function() {
         var e = jQuery(this).data("progress");
@@ -121,7 +121,7 @@ jQuery(document).ready(function() {
     margin: 0,
     nav: !0,
     navClass: [
-      "owl-prev waves-effect waves-cvitae", "owl-next waves-effect waves-cvitae"
+      "owl-prev waves-effect waves-turaki", "owl-next waves-effect waves-turaki"
     ],
     navSpeed: 1e3,
     responsive: {
@@ -132,24 +132,24 @@ jQuery(document).ready(function() {
     smartSpeed: 1e3
   }),
   jQuery(window).on("load", function() {
-    jQuery("#cvitae-slider").catslider(),
-    jQuery(".cvitae-gallery .project").on("click", function(e) {
+    jQuery("#turaki-slider").catslider(),
+    jQuery(".turaki-gallery .project").on("click", function(e) {
       e.preventDefault();
       var t = jQuery(this);
       jQuery("#project-title").text(t.data("project-title")),
       jQuery("#project-image").attr("src", t.data("project-image")),
       jQuery("#project-link").attr("href", t.data("project-link")),
       jQuery("#project-detail").text(t.data("project-detail")),
-      jQuery(".cvitae-portfolio-popup").addClass("active")
+      jQuery(".turaki-portfolio-popup").addClass("active")
     })
   }),
   jQuery(".project-popup-close").on("click", function() {
-    jQuery(".cvitae-portfolio-popup").removeClass("active")
+    jQuery(".turaki-portfolio-popup").removeClass("active")
   }),
   jQuery(document).keyup(function(e) {
-    "27" == e.which && jQuery(".cvitae-portfolio-popup").removeClass("active")
+    "27" == e.which && jQuery(".turaki-portfolio-popup").removeClass("active")
   }),
-  jQuery(".cvitae-portfolio-popup").on("click", function(e) {
+  jQuery(".turaki-portfolio-popup").on("click", function(e) {
     e.target === this && jQuery(this).removeClass("active")
   }),
   jQuery(".testimonial-container").owlCarousel({
@@ -158,7 +158,7 @@ jQuery(document).ready(function() {
     margin: 0,
     nav: !0,
     navClass: [
-      "owl-prev waves-effect waves-cvitae", "owl-next waves-effect waves-cvitae"
+      "owl-prev waves-effect waves-turaki", "owl-next waves-effect waves-turaki"
     ],
     navSpeed: 1e3,
     responsive: {
@@ -174,7 +174,7 @@ jQuery(document).ready(function() {
     margin: 0,
     nav: !0,
     navClass: [
-      "owl-prev waves-effect waves-cvitae", "owl-next waves-effect waves-cvitae"
+      "owl-prev waves-effect waves-turaki", "owl-next waves-effect waves-turaki"
     ],
     navSpeed: 1e3,
     responsive: {

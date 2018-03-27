@@ -1,13 +1,13 @@
 const About = () => {
     return (
-        <div id="about" className="cvitae-section cvitae-about-me">
-            <div className="cvitae-container">
-                <div className="cvitae-section-content">
+        <div id="about" className="turaki-section turaki-about-me">
+            <div className="turaki-container">
+                <div className="turaki-section-content">
 
 
 
                     <div class="content-right short-bio">
-                        <h3 class="cvitae-section-title" style={{fontSize : '40px'}}>About KT TURAKI </h3>
+                        <h3 class="turaki-section-title" style={{fontSize : '40px'}}>About KT TURAKI </h3>
                         <p style={{fontSize : '17px'}}>
                         <strong>Kabiru Tanimu Turaki</strong>, SAN, FCIArb, FABs, FCIDA, HCH.Hm, MPIS, MHCA (Dan Masanin Gwandu, Zarumman Kabbi) (born 3 April 1957) is a <strong>Senior Advocate of Nigeria</strong>,
                         a former Minister of Special Duties and Inter – Governmental Affairs, former Supervising Minister, Ministry of Labour, having served from 2013 – 2015 and
