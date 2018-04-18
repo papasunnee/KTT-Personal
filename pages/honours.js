@@ -4,6 +4,7 @@ import Head from 'next/head'
 import withLayout from '../components/withLayout'
 import TopBanner from '../components/Header/TopBanner'
 import Menu from '../components/Header/Menu'
+import MobileMenu from '../components/Header/MobileMenu'
 import About from '../components/About/About'
 import Honours from '../components/Honours/Honours'
 import Achievement from '../components/Achievement/Achievement'
@@ -17,6 +18,8 @@ class HonoursPage extends Component{
       <div className="turaki-site-container" >
 
         <Menu />
+
+        <MobileMenu />
 
         <div id="portfolio" className="turaki-section turaki-portfolio">
             <div className="container-fluid">

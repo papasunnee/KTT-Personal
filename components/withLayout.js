@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import Head from 'next/head'
+import { initGA, logPageView } from '../utils/analytics'
 
 //import { Button, Fade } from 'reactstrap';
 
@@ -16,7 +17,12 @@ export default function withLayout(Child) {
 
     componentDidMount(){
       setTimeout(()=>this.setState({loading: false}), 2000)
-      console.log('mount');
+      // console.log('mount');
+      if (!window.GA_INITIALIZED) {
+        initGA()
+        window.GA_INITIALIZED = true
+      }
+      logPageView()
     }
 
     render() {

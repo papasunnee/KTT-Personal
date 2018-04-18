@@ -7,7 +7,7 @@ const Achievement = () => {
                 <div className="turaki-section-content">
                     <div className="content-left">
                         <h3 className="turaki-section-title">My Core Belief</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p style={{fontSize: '20px'}}>Empathy and Humaneness are essentially the cardinal objectives of life.</p>
                     </div>
                     <div className="content-right">
                         <div className="achievement-container">
@@ -36,40 +36,35 @@ const Achievement = () => {
                                 <h4 className="achievement-title">Most Talented</h4>
                                 <p className="achievement-detail">Brief detail of award won</p>
                             </div> */}
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            <p style={{fontSize: '24px'}}>
+                              STRONG AND HONEST LEADERSHIP
                             </p>
 
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            Every facet of our lives require strong and honest leadership,
+                            from our family settings to offices, communities, worship places and governments. Strong and honest leadership is a function of human audacity.
                             </p>
+
+                            <br/>
+
+                            <p style={{fontSize: '24px'}}>
+                              EQUITABLE ADMINISTRATION OF JUSTICE
+                            </p>
+
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            No one is above the law. Equitable administration of justice is a key component of a democratic, peaceful and modern society. No one should be able to evade justice because of his or her position or wealth in any modern society.
                             </p>
+
+                            <br/>
+
+                            <p style={{fontSize: '24px'}}>
+                              ZERO TOLERANCE TO DISCRIMINATION
+                            </p>
+
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                              We are all created by God and are equal before him. We therefore ought to treat each other with respect and dignity. We should all be defined by our characters, and values rather than the color of our skin, the language we speak, where we live, where we worship or political affiliation.
                             </p>
-                            
+
                         </div>
                     </div>
                 </div>
