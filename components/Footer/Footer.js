@@ -41,7 +41,7 @@ const Footer = (props) => {
                   </blockquote>
                     <ul className="links">
                         <li className="tooltipped" data-position="top" data-delay="50" data-tooltip="Follow on Twitter">
-                            <a href="https://twitter.com/KTTurakiSAN" target="_blank"><span className="ti-twitter"></span>Twitter Profile</a>
+                            <a href="https://twitter.com/tanimuturaki" target="_blank"><span className="ti-twitter"></span>Twitter Profile</a>
                         </li>
                         <li className="tooltipped" data-position="top" data-delay="50" data-tooltip="Goto Top">
                             <a href="#" data-hover="Goto Top" className="goto-top"><span className="ti-arrow-up"></span>Goto Top</a>

@@ -8,24 +8,21 @@ const Honours = () => {
                     <div className="content-left">
                         <h3 className="turaki-section-title">Honours</h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,    
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        KT Turaki is the recipients of numerous awards and honors for Governing Excellence, Exemplary Leadership, Community Activism, Promotion of Law & Order, Contribution to Legal Body of Knowledge and also traditional Chieftancy titles.  
                         </p>
                     </div>
                     <div className="content-right">
                         <ul className="collapsible" data-collapsible="accordion">
                             <li>
-                                <div className="collapsible-header">Award , <span className="year">2005</span></div>
+                                <div className="collapsible-header">Award</div>
                                 <div className="collapsible-body"><p>Award Details Here</p></div>
                             </li>
                             <li>
-                                <div className="collapsible-header">Award , <span className="year">2003</span></div>
+                                <div className="collapsible-header">Award</div>
                                 <div className="collapsible-body"><p>Award Details Here</p></div>
                             </li>
                             <li>
-                                <div className="collapsible-header">Award , <span className="year">2001</span></div>
+                                <div className="collapsible-header">Award</div>
                                 <div className="collapsible-body"><p>Award Details Here</p></div>
                             </li>
                         </ul>

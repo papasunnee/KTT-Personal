@@ -7,7 +7,9 @@ const Portfolio = () => {
                 <div className="turaki-section-content">
                     <div className="content-left">
                         <h3 className="turaki-section-title">Profession</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p>
+                        KT Turaki is the first Senior Advocate of Nigeria from the old North western Nigerian region and one of the most accomplished Senior Advocates in Nigeria. 
+                        </p>
                     </div>
                     <div className="content-right">
                        <p>
@@ -16,7 +18,6 @@ const Portfolio = () => {
                        </p>
 
                        <p>
-
                         As a lawyer,Kabiru Tanimu Turaki practiced in virtually every Court and Tribunal in the country,
                         from the Magistrate Court, High Court, Appellate Court, Miscellaneous Offences Tribunal, Elections Petition Tribunals all through to the Supreme Court. 
                         In all of these, he recorded tremendous successes beyond the ordinary. 

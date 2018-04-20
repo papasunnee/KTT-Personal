@@ -7,7 +7,7 @@ const Achievement = () => {
                 <div className="turaki-section-content">
                     <div className="content-left">
                         <h3 className="turaki-section-title">My Core Belief</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                        <p>Empathy and Humaneness are essentially the cardinal objectives of life.</p>
                     </div>
                     <div className="content-right">
                         <div className="achievement-container">
