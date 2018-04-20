@@ -7,13 +7,8 @@ const Honours = () => {
                 <div className="turaki-section-content">
                     <div className="content-left">
                         <h3 className="turaki-section-title">Honours</h3>
-<<<<<<< HEAD
-                        <p>
-                        KT Turaki is the recipients of numerous awards and honors for Governing Excellence, Exemplary Leadership, Community Activism, Promotion of Law & Order, Contribution to Legal Body of Knowledge and also traditional Chieftancy titles.  
-=======
                         <p style={{fontSize: '18px'}}>
                             Kabiru Tanimu Turaki is a recepient of numerous awards in politics, business and community service.
->>>>>>> 344301245d3d1a94ead072d0907bcb2aad06b204
                         </p>
                     </div>
                     <div className="content-right">
