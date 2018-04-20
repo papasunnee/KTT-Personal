@@ -7,30 +7,6 @@ const Politics = () => {
                 <div className="turaki-section-content">
                     <div className="content-left">
                         <h3 className="turaki-section-title">Politics</h3>
-<<<<<<< HEAD
-                        <p>
-                        KT Turaki's political philosophy, is not adding more to the abundance of those who have much, it is providing enough for those who have little.      
-                        </p>
-                        <p>
-                        His mission in politics is to reduce inequality and enhance prosperity for all Nigerians regardless of tribe, religion, age or political affiliation.   
-                        </p>
-                    </div>
-                    <div className="content-right">
-                        <ul className="collapsible" data-collapsible="accordion">
-                            <li>
-                                <div className="collapsible-header">Office Held</div>
-                                <div className="collapsible-body"><p>Political Details Here</p></div>
-                            </li>
-                            <li>
-                                <div className="collapsible-header">Office Held</div>
-                                <div className="collapsible-body"><p>Political Details Here</p></div>
-                            </li>
-                            <li>
-                                <div className="collapsible-header">Office Held</div>
-                                <div className="collapsible-body"><p>Political Details Here</p></div>
-                            </li>
-                        </ul>
-=======
                         <p style={{fontSize: '18px'}}>
                           An active member of the People's Democratic Party of Nigeria
                         </p>
@@ -53,7 +29,6 @@ const Politics = () => {
                             Alhaji Kabiru Tanimu Turaki, SAN, FCIArb (Danmasanin Gwandu) is presently Member of PDP Board of Trustees (BOT). A position he was appointed in 2015.
                           </p>
                         </div>
->>>>>>> 344301245d3d1a94ead072d0907bcb2aad06b204
                     </div>
                 </div>
             </div>

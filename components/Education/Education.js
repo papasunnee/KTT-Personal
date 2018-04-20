@@ -8,14 +8,8 @@ const Education = () => {
                     <div className="content-left">
                         <h3 className="turaki-section-title">Educaton</h3>
                         <img src="./static/img/education/dede.png" style={{ width : '100%', marginBottom : '10px'}} />
-<<<<<<< HEAD
-                        <p style={{fontWeight : 'bold'}}>
-                            {/* Kabiru's passion for social justice, fairness and the rule of law saw him opting to study law. */}
-                            KT Turaki's passion for social justice, human right and the rule of law and order were the main driving forces behind his decision to study law. He was a distinguished student.
-=======
                         <p style={{fontWeight : 'bold', fontSize: '18px'}}>
                             Kabiru's passion for social justice, fairness and the rule of law saw him opting to study law.
->>>>>>> 344301245d3d1a94ead072d0907bcb2aad06b204
                         </p>
                     </div>
                     <div className="content-right">

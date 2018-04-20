@@ -7,13 +7,7 @@ const Portfolio = () => {
                 <div className="turaki-section-content">
                     <div className="content-left">
                         <h3 className="turaki-section-title">Profession</h3>
-<<<<<<< HEAD
-                        <p>
-                        KT Turaki is the first Senior Advocate of Nigeria from the old North western Nigerian region and one of the most accomplished Senior Advocates in Nigeria. 
-                        </p>
-=======
                         <p style={{fontSize: '18px'}}>A lawyer by profession and a Senior Advocate of Nigeria</p>
->>>>>>> 344301245d3d1a94ead072d0907bcb2aad06b204
                     </div>
                     <div className="content-right">
                       <div className="achievement-container">
