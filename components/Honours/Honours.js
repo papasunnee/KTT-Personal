@@ -19,23 +19,9 @@ const Honours = () => {
 
                       </div>
                         <ul className="collapsible" data-collapsible="accordion">
-<<<<<<< HEAD
-                            <li>
-                                <div className="collapsible-header">Award</div>
-                                <div className="collapsible-body"><p>Award Details Here</p></div>
-                            </li>
-                            <li>
-                                <div className="collapsible-header">Award</div>
-                                <div className="collapsible-body"><p>Award Details Here</p></div>
-                            </li>
-                            <li>
-                                <div className="collapsible-header">Award</div>
-                                <div className="collapsible-body"><p>Award Details Here</p></div>
-=======
                           {AWARDS.map((award, index)=>(
                             <li key={index}>
                               <div className="collapsible-header">{award}</div>
->>>>>>> 344301245d3d1a94ead072d0907bcb2aad06b204
                             </li>
                           ))}
                         </ul>
