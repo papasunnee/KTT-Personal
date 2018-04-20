@@ -7,26 +7,31 @@ const Portfolio = () => {
                 <div className="turaki-section-content">
                     <div className="content-left">
                         <h3 className="turaki-section-title">Profession</h3>
+<<<<<<< HEAD
                         <p>
                         KT Turaki is the first Senior Advocate of Nigeria from the old North western Nigerian region and one of the most accomplished Senior Advocates in Nigeria. 
                         </p>
+=======
+                        <p style={{fontSize: '18px'}}>A lawyer by profession and a Senior Advocate of Nigeria</p>
+>>>>>>> 344301245d3d1a94ead072d0907bcb2aad06b204
                     </div>
                     <div className="content-right">
+                      <div className="achievement-container">
                        <p>
-                       Within two years,the young lawyer established himself,he became noted in legal circle of Kano and environs. This stride gave birth to K.T. Turaki and co.
-                       In 1989 which turned out to become one of the most successful law firms in Nigeria. 
+                       Within two years,the young lawyer established himself, he became noted in legal circle of Kano and environs. This stride gave birth to K.T. Turaki and co.
+                       In 1989 which turned out to become one of the most successful law firms in Nigeria.
                        </p>
 
                        <p>
                         As a lawyer,Kabiru Tanimu Turaki practiced in virtually every Court and Tribunal in the country,
-                        from the Magistrate Court, High Court, Appellate Court, Miscellaneous Offences Tribunal, Elections Petition Tribunals all through to the Supreme Court. 
-                        In all of these, he recorded tremendous successes beyond the ordinary. 
+                        from the Magistrate Court, High Court, Appellate Court, Miscellaneous Offences Tribunal, Elections Petition Tribunals all through to the Supreme Court.
+                        In all of these, he recorded tremendous successes beyond the ordinary.
                         </p>
 
                         <p>
-                            His desire for justice,fairness and equity informed the choice of law as a carrier which he built successfully, taking up people's cases and rendering services PRONOBO.
-                            He was appointed a member of the Kano State Law Reporting Committee in 1999,member of the Committee for the review of current legislations in Kano State 
-                            and served in the Committee that reviewed Northern State's Penal Code law in 1992. His outstanding  accomplishments and awesome legal carrier in Kano led to the record 
+                            His desire for justice,fairness and equity informed the choice of law as a carrier which he built successfully, taking up people's cases and rendering services PROBONO.
+                            He was appointed a member of the Kano State Law Reporting Committee in 1999,member of the Committee for the review of current legislations in Kano State
+                            and served in the Committee that reviewed Northern State's Penal Code law in 1992. His outstanding  accomplishments and awesome legal carrier in Kano led to the record
                             breaking appointment to the prestigious rank of Senior Advocate of Nigeria,SAN ;the first in the entire former North Western State(present day Sokoto,Kebbi,Zamfara and environs).
                         </p>
                         <p>
@@ -46,7 +51,7 @@ const Portfolio = () => {
                         </p>
 
                         <p>
-                        His immense contribution to the development of law and the legal practice in Nigeria led to his appointment as a Notary 
+                        His immense contribution to the development of law and the legal practice in Nigeria led to his appointment as a Notary
                         Public by the Chief Justice of Nigeria and subsequent elevation to Senior Advocate in 2002.
                         </p>
 
@@ -58,6 +63,7 @@ const Portfolio = () => {
                         Turaki is, in every ramification a success story, a role model to the youth, a becon of hope to the old, a pacesetter to the strong
                         and an inspiration to society. He is unyielding as a patriot with abiding faith in Nigerias' continuous corporate existence as a federation.
                         </p>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -65,8 +71,13 @@ const Portfolio = () => {
                 .content-right p {
                     margin : 20px auto
                 }
+                @media (max-width: 767px){
+                  .achievement-container {
+                      padding: 70px 50px
+                  }
+                }
             `}
-            </style>    
+            </style>
         </div>
     )
 }

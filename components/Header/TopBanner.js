@@ -18,7 +18,8 @@ export default class TopBanner extends Component {
             <div className="slider-overlay turaki-typed-slider">
                 <div className="turaki-container">
                     <div className="slider-content">
-                        <p className="name">Kabiru Tanimu Turaki</p>
+                        <p className="name">Kabiru  Tanimu</p>
+                        <p className="name">Turaki</p>
                         <p className="designation">SENIOR ADVOCATE OF NIGERIA</p>
                     </div>
                 </div>
