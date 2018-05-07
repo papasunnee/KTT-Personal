@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "KTT Personal Website",
   "author": "altitudetechnologynig@gmail.com",
+  "engines": {
+    "node": "8.9.4",
+    "yarn": "1.6.0"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
