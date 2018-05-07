@@ -13,7 +13,8 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "export": "next export",
-    "bexport": "next build && next export"
+    "bexport": "next build && next export",
+    "heroku-postbuild": "next build"
   },
   "dependencies": {
     "next": "^5.0.0",
