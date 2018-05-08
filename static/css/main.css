@@ -220,7 +220,7 @@ a:focus, a:hover {
   left: 50%;
   position: absolute;
   text-align: center;
-  top: 50%;
+  top: 57% !important;
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%)
@@ -3525,7 +3525,7 @@ a:focus, a:hover {
 }
 
 .intro-8 .slider .slider-overlay {
-  background-image: url(../img/slider/dede1.png)
+  background-image: url(../img/slider/ktt-background.jpg)
 }
 
 .intro-8 .slider .slider-overlay:before {
