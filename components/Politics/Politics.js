@@ -26,7 +26,7 @@ const Politics = () => {
                           </p>
 
                           <p>
-                            Alhaji Kabiru Tanimu Turaki, SAN, FCIArb (Danmasanin Gwandu) is presently Member of PDP Board of Trustees (BOT). A position he was appointed in 2015.
+                            Alhaji Kabiru Tanimu Turaki, SAN, FCIArb (Danmasanin Gwandu) was appointed in 2015 as a Member of the PDP Board of Trustees (BOT). A position he holds to this day.
                           </p>
                         </div>
                     </div>

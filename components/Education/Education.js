@@ -9,7 +9,7 @@ const Education = () => {
                         <h3 className="turaki-section-title">Educaton</h3>
                         <img src="./static/img/education/dede.png" style={{ width : '100%', marginBottom : '10px'}} />
                         <p style={{fontWeight : 'bold', fontSize: '18px'}}>
-                            Kabiru's passion for social justice, fairness and the rule of law saw him opting to study law.
+                            Kabiru's passion for social justice, fairness and the rule of law prompted his decision to study law.
                         </p>
                     </div>
                     <div className="content-right">
@@ -34,18 +34,18 @@ const Education = () => {
                         <p>
                           After obtaining Senior School Certificate, Kabiru was admitted into the College of Arts and Science, Sokoto
                           for his A Levels (IJMB) where he obtained distinctions in all his papers.
-                          This earned him admission into one of Nigeria's respected Universities,UniJos.
+                          This earned him admission into one of Nigeria's respected Universities, UniJos.
                         </p>
 
                         <p>
                           Kabiru's passion for social justice, fairness and the rule of law saw him opting to study law.
-                          He graduated with honour and proceeded to the Nigerian Law School,Lagos where in 1986 he was
+                          He graduated with honour and proceeded to the Nigerian Law School, Lagos where in 1986 he was
                           called to the Bar.
                         </p>
 
                         <p>
-                          Upon graduation from the Law School,Kabiru Tanimu Turaki opted to be a legal practitioner as an avenue to impact society.
-                          As a fresh wig eager to distinguish himself in the profession,Barrister Kabiru Tanimu Turaki went to Kano where he became a
+                          Upon graduation from the Law School, Kabiru Tanimu Turaki opted to be a legal practitioner as an avenue to impact society.
+                          As a fresh wig eager to distinguish himself in the profession, Barrister Kabiru Tanimu Turaki went to Kano where he became a
                           senior counsel with Alhaji Tijjani Abdullahi and company(solicitors and Advocates)in 1987.
                         </p>
                       </div>
